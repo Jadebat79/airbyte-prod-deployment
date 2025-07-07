@@ -80,7 +80,12 @@ Ingress is **not managed inside the chart**. Instead:
 
 ---
 
-## Airbyte will be deployed into the `${var.airbyte_namespace}` namespace, reachable via `${var.ingress_host}`.
+## 🌐 Access Model
+
+Airbyte will be deployed into the `${var.airbyte_namespace}` namespace, reachable via `${var.ingress_host}`.
+
+Ingress is **not managed by the Helm chart**.  
+Instead, it's handled via a centralized NGINX ingress controller with TLS certificates issued by cert-manager and Let’s Encrypt.
 
 ---
 
