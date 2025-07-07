@@ -104,7 +104,7 @@ This Airbyte deployment is part of a **fintech pipeline project**:
 
 ### 🔹 Loki Logs UI
 
-![Airbyte page](./assets/airbyte.png)
+![Airbyte page](./assets/airbytepage.png)
 
 ---
 
